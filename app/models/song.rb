@@ -3,11 +3,11 @@ class Song < ActiveRecord::Base
   has_many :song_genres
   has_many :genres, through: :song_genres
 
-  def slug 
+  def slug
     name.downcase.gsub("","-")
-  end 
+  end
 
   def self.find_by_slug(slug)
     Song.all.find { |song| song.slug == slug }
-  end 
+  end
 end
