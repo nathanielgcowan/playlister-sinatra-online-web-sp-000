@@ -7,4 +7,4 @@ class SongsController < ApplicationController
     @songs = Songs.all
 
     erb:'/songs/index'
-  
+  end
