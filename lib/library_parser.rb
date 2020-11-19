@@ -35,7 +35,7 @@ def build_objects(artist_name, song_name, genre_name)
 
   song.song_genres.build(genre: genre)
   song.artist = artist
-
+  
   song.save
 end
 end
