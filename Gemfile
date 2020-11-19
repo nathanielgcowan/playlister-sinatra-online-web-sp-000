@@ -10,6 +10,7 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'tux'
+gem 'rack-flash3'
 
 group :test do
   gem 'launchy'
@@ -17,4 +18,5 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
   gem 'database_cleaner'
+  
 end
